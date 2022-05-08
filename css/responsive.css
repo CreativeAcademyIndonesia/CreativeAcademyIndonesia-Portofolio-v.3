@@ -178,10 +178,6 @@
     }
 }
 
-@media screen and ( max-width : 576px ) {
-
-}
-
 @media screen and ( max-width : 768px ) {
     h1 {
         font-size: 2.2rem;
@@ -320,24 +316,25 @@
         margin-right: 16px;
         font-size: 20px;
     }
-
-    .logo-left {
-        width: 60%;
-        height: 230px;
-    }
-    
-    .logo-left.r {
-        width: 60%;
-        height: 230px;
-    }
     
     .bd {
-        width: 60%;
-        height: 230px;
+        width: 80%;
+        height: 210px;
     }
     
     .bd.r {
-        width: 60%;
-        height: 230px;
+        width: 80%;
+        height: 210px;
     }
+
+    .logo-left {
+        width: 80%;
+        height: 210px;
+    }
+    
+    .logo-left.r {
+        width: 80%;
+        height: 210px;
+    }
+    
 }
