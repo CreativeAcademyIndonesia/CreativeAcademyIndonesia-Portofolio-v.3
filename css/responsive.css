@@ -323,18 +323,18 @@
     }
     
     .bd.r {
-        width: 80%;
-        height: 210px;
+        width: 60%;
+        height: 230px;
     }
 
     .logo-left {
-        width: 80%;
-        height: 210px;
+        width: 60%;
+        height: 230px;
     }
     
     .logo-left.r {
-        width: 80%;
-        height: 210px;
+        width: 60%;
+        height: 230px;
     }
     
 }
