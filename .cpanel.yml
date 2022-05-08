@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1366952/MyPortofolio/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R Assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R Javascript $DEPLOYPATH
+    - /bin/cp -R Vendor $DEPLOYPATH
