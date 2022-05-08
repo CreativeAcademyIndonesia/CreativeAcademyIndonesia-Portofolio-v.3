@@ -282,7 +282,7 @@
         font-size: .9rem;
         line-height: 23px;
     }
-    
+
 }
 
 
@@ -322,22 +322,22 @@
     }
 
     .logo-left {
-        width: 80%;
-        height: 250px;
+        width: 60%;
+        height: 230px;
     }
     
     .logo-left.r {
-        width: 80%;
-        height: 250px;
+        width: 60%;
+        height: 230px;
     }
     
     .bd {
-        width: 80%;
-        height: 250px;
+        width: 60%;
+        height: 230px;
     }
     
     .bd.r {
-        width: 80%;
-        height: 250px;
+        width: 60%;
+        height: 230px;
     }
 }
