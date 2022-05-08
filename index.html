@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Vendor/fontawesome-free-6.1.1-web/css/all.min.css">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/all.style.css">
+
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Agus Sugandi Portofolio</title>
+</head>
+
+<body>
+    <!-- Section Navbar -->
+    <nav class="navbar mynav navbar-expand-lg position-fixed">
+        <div class="container-lg container-fluid">
+
+            <a class="brand d-lg-none" href="#">
+                <i class="fa-brands fa-drupal"></i>
+                Agus Sugandi
+            </a>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <div class="navbar-nav w-100 d-flex">
+                    <a class="nav-link nav-text active" aria-current="page" href="#"><i
+                            class="fa-solid fa-house d-lg-none me-3"></i>Home</a>
+                    <a class="nav-link nav-text align-items-center" href="#"><i
+                            class="fa-solid fa-user-tie d-lg-none me-3"></i>
+                        About</a>
+                    <a class="nav-link nav-text align-items-center" href="#"><i
+                            class="fa-solid fa-newspaper d-lg-none me-3"></i>Portofolio</a>
+                    <a class="nav-link nav-text align-items-center" href="#"><i
+                            class="fa-solid fa-briefcase d-lg-none me-3"></i>Service</a>
+                    <a class="nav-link nav-text align-items-center" href="#"><i
+                            class="fa-solid fa-address-book d-lg-none me-3"></i>Contact</a>
+                    <div class="social-icon mt-auto d-flex justify-content-center d-lg-none">
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-instagram position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-youtube position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-dribbble position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-linkedin-in position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-github position-absolute top-50 start-50 translate-middle"></i></a>
+                    </div>
+                    <button class="button-lg text-center justify-content-center mb-2 d-lg-none">Get In Touch</button>
+                </div>
+            </div>
+            <a class="nav-link ms-auto social" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="nav-link social" href="#"><i class="fa-brands fa-github"></i></i></a>
+
+            <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <label for="check">
+                    <input type="checkbox" id="check" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </button>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="position-relative">
+        <div class="circle-hero position-absolute translate-middle-x">
+            <img src="Assets/HeroImage.png" alt="" class="position-absolute start-50 translate-middle-x">
+        </div>
+        <div class="container d-flex flex-column position-relative py-4">
+            <div class="work-list-logo row justify-content-around position-absolute w-100 top-100 start-50 m-0">
+                <div class="year text-center position-absolute bottom-100 start-50 translate-middle">
+                    <span>5+ work experience</span>
+                </div>
+                <div class="col-xl-10 col-12 corp-logo d-flex justify-content-md-around justify-content-start">
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <img src="Assets/Corporation-logo/jayalestari.svg" alt="">
+                    </div>
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <img src="Assets/Corporation-logo/Yogya.svg" alt="">
+                    </div>
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <img src="Assets/Corporation-logo/Creativeacademy.svg" alt="">
+                    </div>
+                    <div class="wrapper d-flex justify-content-center align-items-center">
+                        <img src="Assets/Corporation-logo/gistex.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center flex-fill hero-title">
+                <div class="col-lg-6">
+                    <h4>Hi, I’m Agus Sugandi</h4>
+                    <h1>Product Designer & Frontend Developer</h1>
+                    <h6>I am from Indonesia, I have more than 5 years of work experience, I am currently working in a
+                        company as a full stack product designer, analyzing the system to be created, Managing and
+                        leading the team to designing the user interface
+                        besides that I am also a freelance frontend developer. come work with me.</h6>
+                    <button class="button-lg"> <i class="fa-solid fa-envelope button-lg-icon"></i> Hire Me</button>
+                </div>
+                <div class="offset-lg-3 offset-md-0 col-lg-3 col-md-6 ps-lg-5 pt-4 pt-lg-0">
+                    <p class="service-title">Service</p>
+                    <span class="service-desc">Lets build quality product in programing and design with my
+                        service.</span>
+                    <div class="social-icon">
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-youtube position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-instagram position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-dribbble position-absolute top-50 start-50 translate-middle"></i></a>
+                    </div>
+                    <a class="resume "><i class="fa-solid fa-file-arrow-down icon ms-1"></i>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+
+    <!-- Work Experience -->
+
+    <!-- End Work Experience -->
+
+    <!-- Section Service -->
+    <!-- <section id="service">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-5 col-md-6">
+                    <h5>Let’s Colaborate </h5>
+                    <h1>What Can I Do For Your Needs</h1>
+                    <h6>it is easier to trust the work the experts because they are able to
+                        provide the best result with
+                        reliable quality.
+                    </h6>
+                    <h6 class="mb-5">
+                        “that digital transformation is a fundamental reality for businesses today.”
+                    </h6>
+                    <figure>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Source Title">Warren Buffett, Chairman and CEO of Berkshire Hathaway</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 offset-1">
+                    <div class="row card-service d-flex align-items-center">
+                        <div class="col-4 p-2 text-center">
+                            <img src="Assets/Icon/UUX.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h5>UI UX Design</h5>
+                            <p>Let's Make Design your digital product for business or personal branding.</p>
+                            <a href="">
+                                <div class="d-flex justify-content-between service-desc">
+                                    <span>Let’s Begin</span><i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row card-service d-flex align-items-center">
+                        <div class="col-4 p-2 text-center">
+                            <img src="Assets/Icon/Web.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h5>Web Development</h5>
+                            <p>Slicing design to programming code make your design is come true, Upgrade your ideas and
+                                business with technology.</p>
+                            <a href="">
+                                <div class="d-flex justify-content-between service-desc">
+                                    <span>Let’s Begin</span><i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row card-service d-flex align-items-center">
+                        <div class="col-4 p-2 text-center">
+                            <img src="Assets/Icon/Graphic.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <h5>Graphic Design </h5>
+                            <p>Design banners, flyers, merchandise, souvenirs, etc. Reach your audience with a design.
+                            </p>
+                            <a href="">
+                                <div class="d-flex justify-content-between service-desc">
+                                    <span>Let’s Begin</span><i class="fa-solid fa-arrow-right-long"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End of Service -->
+
+    <!-- Section Skills -->
+    <!-- <section id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <h5>Hard Skills</h5>
+                    <h1>Development Tools That I Master</h1>
+                    <h6>Software that helps me work, Software is just a tool that makes a product useful depending on
+                        ideas, innovation and creativity.
+                    </h6>
+                    <h6 class="mb-5">
+                        "People don't care about what you say, they care about what you build."
+                    </h6>
+                    <figure>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Source Title">Mark Zuckerberg</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-6 offset-1 flex-fill align-items-start d-flex justify-content-around flex-wrap">
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/Bootstrap_logo 1.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/html 1.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/css.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/javascript.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/react.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/git.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/staruml_logo 1.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/ms office.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/xd.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/figma.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/corel.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/ai.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/psd.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center">
+                        <img src="Assets/Icon/pr.png" alt="">
+                    </div>
+                    <div class="skill-icon d-flex justify-content-center align-items-center invisible">
+                        <img src="Assets/Icon/pr.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Section Skills -->
+
+    <!-- Section Education -->
+    <!-- <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <h5>This Is My</h5>
+                    <h1>Educational History That Makes Me Grow</h1>
+                    <h6>Education that helps me build character, improve skills, knowledge, insight and experience.
+                    </h6>
+                    <h6 class="mb-5">
+                        “Hang your ideals high in the sky! Dream as high as the sky. If you fall, you will fall among
+                        the stars."
+                    </h6>
+                    <figure>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Source Title">Ir. Soekarno Indonesia's 1st president</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-6 offset-1 education-desc">
+                    <div class="education-item">
+                        <span>2018 - 2021</span>
+                        <h3>STMIK MARDIRA INDONESIA</h3>
+                        <h5>Informatic Management</h5>
+                        <p>Best graduated student GPA. 3.75, Degree Amd.</p>
+                    </div>
+
+                    <div class="education-item">
+                        <span>2014-2017</span>
+                        <h3>SMK DHARMA AGUNG PASEH</h3>
+                        <h5>Computer Network Engineering</h5>
+                        <p>The best student with a rank of 1</p>
+                    </div>
+
+                    <div class="education-item">
+                        <span>2021</span>
+                        <h3>DIGITAL SCHOLARSHIP KOMINFO</h3>
+                        <h5>Data Engineering</h5>
+                        <p>With DQLAB Partner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Section Education -->
+
+    <!-- Section Sertificate -->
+    <!-- <section id="sertificate">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="d-inline">Certificate Gallery</h2>
+                        <div class="divider mx-auto"></div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (1).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (3).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (4).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (5).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (6).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (7).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 mt-4">
+                        <div class="card p-1">
+                            <img src="Assets/Sertificate/sertificate (8).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 link-in text-center">
+                        <a href="">
+                            <i class="fa-brands fa-linkedin-in me-2"></i>
+                            See on Linkedin
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+    <!-- End OF Section Sertificate -->
+
+    <!-- Section Footer -->
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h4>Agus Sugandi</h4>
+                    <span>Conect with us</span>
+                    <div class="social-icon">
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-instagram position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-youtube position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-dribbble position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-linkedin-in position-absolute top-50 start-50 translate-middle"></i></a>
+                        <a href="#" class="icon"><i
+                                class="fa-brands fa-github position-absolute top-50 start-50 translate-middle"></i></a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span>Copyright 2022, Made with <i class="fa-solid fa-heart"></i> by agus sugandi</span>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-between flex-column">
+                    <div>
+                        <ul class="p-0 m-0">
+                            <li>
+                                <a href="#" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Portofolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span>Contact Me </span>
+                        <button class="button-lg"> <i class="fa-solid fa-envelope button-lg-icon"></i> Email Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <!-- End Of Footer -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- Font Awesome Script -->
+    <script src="Vendor/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <script src="Vendor/js/vanilla-tilt.js"></script>
+
+    <!-- My Script -->
+    <script src="Javascript/all.javascript.js"></script>
+
+    <script type="text/javascript">
+        // VanillaTilt.init(document.querySelector(".logo-left"), {
+        //     max: 25,
+        //     speed: 400,
+        //     reset: false,
+        //     startX: -600
+        // });
+    </script>
+
+</body>
+
+</html>
