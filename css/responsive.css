@@ -156,6 +156,30 @@
         margin-right: 0 ;
         margin-left: 0;
     }
+
+    .logo-left {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .logo-left.r {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .bd {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .bd.r {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and ( max-width : 576px ) {
+
 }
 
 @media screen and ( max-width : 768px ) {
@@ -202,6 +226,62 @@
         font-size: 1rem;
         line-height: 1.1em;
     }
+
+    /* Work Experience */
+    #workexperience {
+        padding: 80px 0 60px 0;
+    }
+
+    .logo-left {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .logo-left.r {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .bd {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .bd.r {
+        width: 50%;
+        height: 300px;
+    }
+
+    .logo-wraper {
+        justify-content: center !important;   
+    }
+    
+    .work::after {
+        width: 24px;
+        height: 20px;
+    }
+    
+    .work::before {
+        width: 24px;
+        height: 20px;
+    }
+
+    .work {
+        padding:32px 12px;
+        position: relative;
+    }
+
+    .divider {
+        height:4px;
+        border-radius: 50px;
+        background-color: var(--accsentcolor);
+        margin: 10px 0 16px 0;
+    }
+
+    .work-descrition {
+        font-size: .9rem;
+        line-height: 23px;
+    }
     
 }
 
@@ -239,5 +319,25 @@
     .resume .icon {
         margin-right: 16px;
         font-size: 20px;
+    }
+
+    .logo-left {
+        width: 80%;
+        height: 250px;
+    }
+    
+    .logo-left.r {
+        width: 80%;
+        height: 250px;
+    }
+    
+    .bd {
+        width: 80%;
+        height: 250px;
+    }
+    
+    .bd.r {
+        width: 80%;
+        height: 250px;
     }
 }
