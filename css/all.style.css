@@ -684,12 +684,14 @@ cite {
 
 .card-service {
     border-bottom: 2px solid #424253;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    padding: 20px;
 }
-
+/* 
 .card-service:nth-child(2) {
     padding-top: 20px;
-}
+    background-color: #ff0088;
+} */
 
 .skill-icon {
     width: calc(20% - 10px);

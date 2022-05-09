@@ -176,8 +176,20 @@
         width: 100%;
         height: 300px;
     }
+
+    .skill-icon {
+        width: calc(30% - 10px);
+        aspect-ratio: 1/1;
+        border-radius: 10px;
+    }
 }
 
+@media ( max-height : 768px ) and (min-width : 768px) {
+    #hero .circle-hero img {
+        width: auto;
+        height: 100vh;
+    }
+}
 @media screen and ( max-width : 768px ) {
     h1 {
         font-size: 2.2rem;
@@ -200,7 +212,7 @@
     }
 
     h6 {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .resume {
@@ -275,11 +287,23 @@
     }
 
     .work-descrition {
-        font-size: .9rem;
-        line-height: 23px;
+        font-size: 1.1rem;
+        line-height: 1.5em;
     }
 
+    .skill-icon {
+        width: calc(20% - 10px);
+        aspect-ratio: 1/1;
+        border-radius: 20px;
+    }
+
+    .education-desc {
+        border-left: 2px solid var(--accsentcolor);
+        padding-left: 30px;
+        margin-left: 12px;
+    }
 }
+
 
 
 @media screen and ( max-width : 375px ) {
@@ -305,6 +329,11 @@
 
     h6 {
         font-size: .8rem;
+    }
+
+    p {
+        font-size: .8rem;
+        line-height: 1.5em;
     }
 
     .resume {
