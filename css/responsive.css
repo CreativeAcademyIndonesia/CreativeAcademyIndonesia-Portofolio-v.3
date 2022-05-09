@@ -301,6 +301,8 @@
         border-left: 2px solid var(--accsentcolor);
         padding-left: 30px;
         margin-left: 12px;
+        box-sizing: border-box;
+        width: calc(100% - 12px);
     }
 }
 
