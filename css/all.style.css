@@ -809,3 +809,99 @@ footer ul li {
 footer button {
     margin-top: 20px;
 }
+
+.slider {
+    position: relative;
+  }
+  
+  .slider .owl-item.active.center .slider-card {
+    transform: scale(1.1);
+    opacity: 1;
+    background: #353543; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3e3e4e, #343442); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3e3e4e, #353543); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+  }
+  
+  .slider-card span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFB300;
+  
+  }
+  
+  .slider-card {
+    background: #353543;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 12px 12px 24px 12px;
+    margin: 50px 15px 90px 15px;
+    transform: scale(1);
+    opacity: .9;
+    transition: all 0.3s;
+  }
+  
+  .slider-card img {
+    border-radius: 5px;
+  }
+  
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 2;
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 2;
+  }
+  
+  .owl-next {
+    background: rgba(255, 255, 255, 0.7) !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 20px !important;
+  }
+  
+  .owl-prev {
+    background: rgba(255, 255, 255, 0.7) !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px !important;
+  }
+  
+  .card {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transform-style: preserve-3d;
+  }
+  .card-shadow {
+    transform: translateZ(-10px) translateX(-50%);
+    box-shadow: 0px 6px 24px rgba(75, 75, 75, 0.15);
+  }
+    .home-nav {
+    box-shadow: 0px 10px 15px rgb(173 172 173 / 22%);
+    background: -webkit-linear-gradient(45deg, #8B21FE, #C438CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: 700;
+    transition-duration: .1s;
+  }
